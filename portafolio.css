@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&family=Tac+One&display=swap');
+
+body{
+    background-color: #fff;
+}
+
+.navegadorcontenedor{
+    width: auto;
+    height: 98px;
+    margin: 0 auto;
+    background-color: rgba(204,204,204,0.9);
+    position: sticky;
+    top: 0;
+    z-index: 300;
+}
+
+.navegador{
+    width: 1080px;
+    height: 98px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+
+.navegador-image{
+    display: inline;
+}
+
+.navegador-image img{
+    width: 80px;
+    height: 80px;
+    display: inline;
+    position: absolute;
+    border-radius: 50%;
+    margin: 3px 10px;
+    padding: 2px;
+    border: 2px solid #fbffbf;
+}
+
+.navegador-image img:hover{
+    transform: translateY(75px) scale(2.5);
+    transition: 0.5s;
+    z-index: 11;
+}
+
+.navegador-image img:not(:hover){
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.navegador-idioma{
+    display: inline;
+    position: relative;
+    left: 15%;
+    top: 27%;
+}
+
+.navegador-idioma img{
+    width: 30px;
+    height: 30px;
+    display: inline;
+    border-radius: 50%;
+}
+
+.navegador-idioma img:hover{
+    transform: scale(1.1) translateY(-2px);
+    box-shadow: 3px 3px 5px 0 #000;
+    transition: 0.4s;
+}
+
+.navegador-list{
+    display: inline;
+    position: relative;
+    top: 27%;
+    left: 13%;
+}
+
+.navegador-list nav{
+    display: inline;
+}
+
+.navegador-list li{
+    display: inline-flex;
+    margin-right: 3%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navegador-list li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 28px;
+    font-family: "Tac One", sans-serif;
+}
+
+.navegador-list li a:visited{
+    color: #111;
+}
+
+.navegador-list li a:hover{
+    font-size: 29px;
+    color: #378;
+    transition: 0.4s;
+    text-shadow: 2px 2px 5px #fff ,2px 2px 5px #fff,2px 2px 5px #fff;
+}
+
+.navegador-list li a:active{
+    bottom: 2px;
+    color: #377;
+    transition: .2s;
+    transform: translateY(2px);
+}
+
+.navegador-list li a:not(:hover){
+    transition: 1s;
+}
+
+nav ul{
+    display: inline;
+}
+
+.navegador-theme{
+    display: inline;
+    position: relative;
+    top: 27%;
+    left: 15%;
+}
+
+#negro, .negro-radio{
+    position: absolute;
+}
+
+.negro-radio{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+main{
+    width: auto;
+    margin: 0 auto;
+    background-color: #aaa;
+}
+
+header{
+    width: auto;
+    margin: 0 auto;
+    background-color: antiquewhite;
+
+}
+
+.div-header{
+    width: 1080px;
+    height: 830px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    justify-content:center;
+    align-items:center;
+}
+
+.div-header h2{
+    font-size: 90px;
+    font-family: "Tac One", sans-serif;
+}
+
+.presentacion{
+    position: relative;
+    margin: auto;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 15%;
+    font-weight: bold;
+    padding-top: 1%;
+}
+
+.presentacion h2::first-letter{
+    font-size: 150px;
+    text-shadow: 2px 2px 5px #378 ,2px 2px 5px #378, 2px 2px 5px #378;
+}
+
+.presentacion h2 span{
+    font-size: 150px;
+    text-shadow: 2px 2px 5px #378 ,2px 2px 5px #378, 2px 2px 5px #378;
+}
+
+.titulos {
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 2%;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 220%;
+    font-family: "Tac One", sans-serif;
+}
+
+.titulos h2{
+    scroll-margin-top: 130px;
+}
+
+.contenedor{
+    width: auto ;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.contenidos-especificos{
+    width: 1080px;
+    margin: 0 auto;
+    height: 1000px;
+    background-color:#376;
+    margin-top: 30px;
+
+}
+
+.contmi{
+    width: 930px;
+    margin: 0 auto;
+    height: 600px;
+    position: relative;
+    background-color: #f1f1f1;
+    border-radius: 35px;
+    padding-left: 4%;
+    padding-top: 3%;
+    top: 18%;
+}
+
+.navegador-theme label{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Tac One", sans-serif;
+}
+
+::-webkit-scrollbar {
+        width: 12px; /* Ancho del scrollbar */
+}
+
+::-webkit-scrollbar-track {
+        background: #f1f1f1; /* Color de fondo del scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+        background: #888; /* Color del thumb (la parte movible del scrollbar) */
+        border-radius: 6px; /* Borde redondeado del thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+            background: #555; /* Color del thumb al pasar el mouse sobre él */
+}
